@@ -32,7 +32,7 @@ class Solution(object):
         """
         lookup = {}
         for i, num in enumerate(nums):
-            if target - num in lookup:
+            if target - num in lookup: #当
                 return [lookup[target - num], i]
             lookup[num] = i
         return []

@@ -33,7 +33,7 @@ class Solution(object):
         lookup = {}
         for i, num in enumerate(nums):
             if target - num in lookup: #思想为对每一个元素a去查是否有另一个使其满足条件的数b存在，那么就需要将每一个元素存到另一个数据结构中去以作为判断（因为如果不存新的数据结构的话，直接遍历会使得序号访问变复杂，比如说空出当前值a，所以索性就新建一个数据结构保存已经检查完的数），从而达到依次判断的效果。
-            #注意其中判断字典的方法，直接if a in dict:
+            #注意判断字典中值的方法，直接if a in dict:即可
                 return [lookup[target - num], i]
             lookup[num] = i
         return []
@@ -41,6 +41,8 @@ class Solution(object):
 
 
 #Knowledge：
-enumerate() 函数用于遍历序列中的元素的下标以及元素。
+1. enumerate() 函数用于遍历序列中的元素的下标以及元素。
 
-其常用形式for i, num in enumerate(nums):
+   其常用形式for i, num in enumerate(nums):
+
+2. 注意判断字典中值的方法，直接if a in dict:即可

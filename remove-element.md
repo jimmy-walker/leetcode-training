@@ -47,7 +47,7 @@ class Solution(object):
     return len(nums)
 ```
 
-#knowledge：
+#Knowledge：
 remove() 函数用于移除列表中某个值的第一个匹配项。
 
 其语法为list.remove(obj)。

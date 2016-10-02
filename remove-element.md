@@ -46,3 +46,8 @@ class Solution(object):
         nums.remove(val)
     return len(nums)
 ```
+
+#knowledge：
+_remove() 函数用于移除列表中某个值的第一个匹配项。
+其语法list.remove(obj)
+_

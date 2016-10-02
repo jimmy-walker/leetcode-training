@@ -48,7 +48,6 @@ class Solution(object):
 ```
 
 #knowledge：
-_remove() 函数用于移除列表中某个值的第一个匹配项。
+remove() 函数用于移除列表中某个值的第一个匹配项。
 
-其语法list.remove(obj)
-_
+其语法为list.remove(obj)。

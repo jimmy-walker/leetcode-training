@@ -37,3 +37,9 @@ class Solution(object):
             lookup[num] = i
         return []
 ```
+
+
+#knowledge：
+enumerate() 函数用于遍历序列中的元素的下标以及元素。
+
+其常用形式for i, num in enumerate(nums):

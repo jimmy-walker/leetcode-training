@@ -35,6 +35,8 @@ not None == not False == not '' == not 0 == not [] == not {} == not ()
 
    `if x is not None是最好的写法，清晰，不会出现错误，以后坚持使用这种写法。`
 
-2. Python中的%是求余，特别用于可能k比n大的情况：k = k % n
+2. Python中的%是求余，特别是用于循环时涉及到的两个数之间可能原较小数k比n大的情况：k = k % n
+
+3. 
 
 

@@ -42,11 +42,13 @@ class Solution(object):
 
 #Knowledge：
 
-1. enumerate() 函数用于遍历序列中的元素的下标以及元素。
+1. 在python中 None,  False, 空字符串"", 0, 空列表[], 空字典{}, 空元组()都相当于False ，即：
+```python
+not None == not False == not '' == not 0 == not [] == not {} == not ()
+```
+   注意：[0]不是False。
 
- 其常用形式for i, num in enumerate(nums):
-
-
+   `if` x is not None是最好的写法，清晰，不会出现错误，以后坚持使用这种写法。
 
 2. 注意判断字典中值的方法，直接if a in dict:即可
 

@@ -9,7 +9,24 @@ Try to come up as many solutions as you can, there are at least 3 different ways
 
 #Answer
 
-## solution：
+## solution1：
+
+```python
+class Solution:
+    # @param nums, a list of integer
+    # @param k, num of steps
+    # @return nothing, please modify the nums list in-place.
+    def rotate(self, nums, k):
+        if not nums or not k:
+            return None
+
+        k %= len(nums)
+
+        if k:
+            nums[:k], nums[k:] = nums[-k:], nums[:-k]
+```
+
+## solution2：
 
 ```python
 class Solution(object):

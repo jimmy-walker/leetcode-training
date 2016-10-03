@@ -4,12 +4,12 @@ python really has three primitive data structures.
 
 ```python
 tuple = ('a','b','c')
-list = ['a','b','c']
+list = ['a','b','c'] #可以通过索引查找数值，但是不能对整个列表进行数值运算
 dict = {'a':1, 'b': true, 'c': "name"}
 ```
 
-besides that , string： 字符串（即不能修改的字符list）
+besides that there exists string： 
 
 ```python
-str = “Hello My friend”
+str = “Hello My friend” #字符串（即不能修改的字符list）
 ```

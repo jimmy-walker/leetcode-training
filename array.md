@@ -1,5 +1,7 @@
 Use lists unless you want some very specific features that are in the C array libraries.
 
+J用python中的list来处理编程中array的问题。
+
 python really has three primitive data structures.
 
 ```python

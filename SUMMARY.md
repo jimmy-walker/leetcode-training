@@ -4,4 +4,5 @@
 * [array](array.md)
     * [remove element](remove-element.md)
     * [two sum](two-sum.md)
+    * [rotate array](rotate-array.md)
 

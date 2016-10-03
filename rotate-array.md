@@ -19,7 +19,8 @@ class Solution:
     def rotate(self, nums, k):
         if not nums or not k:
             return None
-        k %= len(nums)
+        n = len(nums)
+        k = k % n
         if k:
             nums[:k], nums[k:] = nums[-k:], nums[:-k]
 ```

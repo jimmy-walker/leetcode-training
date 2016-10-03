@@ -35,6 +35,6 @@ not None == not False == not '' == not 0 == not [] == not {} == not ()
 
    `if x is not None是最好的写法，清晰，不会出现错误，以后坚持使用这种写法。`
 
-2. 注意判断字典中值的方法，直接if a in dict:即可
+2. Python中的%是求余，特别用于可能k比n大的情况：k = k % n
 
 

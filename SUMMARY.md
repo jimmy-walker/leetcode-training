@@ -6,5 +6,5 @@
    * [two sum](two-sum.md)
    * [rotate array](rotate-array.md)
    * [rotate function](rotate-function.md)
-* pascal's triangle
+   * pascal's triangle
 

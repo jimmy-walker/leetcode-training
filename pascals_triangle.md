@@ -48,6 +48,6 @@ class Solution(object):
 
    `N[i] = N[i-1] + N[i]`
 
-2. 
+2. 双指针问题。
 
 

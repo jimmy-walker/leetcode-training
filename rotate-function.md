@@ -75,7 +75,7 @@ class Solution(object):
 
     那么我们就找到规律了, F(i) = F(i-1) + sum - n*A[n-i]
 
-3. python 中德比较大小，直接用函数max()，返回给定参数的最大值，参数可以为序列，其语法为max( x, y, z, .... )
+3. python 中比较大小，直接用函数max()，返回给定参数的最大值，参数可以为序列，其语法为max( x, y, z, .... )
 
 4. xrange返回一个生成器，xrange做循环的性能比range好,尤其是返回很大的时候.除非要返回一个列表,则用range。注意xrange(1,n)表示从1开始取，取不到n。
 

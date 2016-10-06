@@ -1,11 +1,11 @@
 # Summary
 
 * [Introduction](README.md)
-* [array](array.md)
-    * [remove element](remove-element.md)
-    * [two sum](two-sum.md)
-    * [rotate array](rotate-array.md)
-    * [rotate function](rotate-function.md)
-    * [pascal's triangle](pascals-triangle.md)
-    * [pascal's triangle II](pascals-triangle-ii.md)
+* [array](array/array.md)
+    * [remove element](array/remove-element.md)
+    * [two sum](array/two-sum.md)
+    * [rotate array](array/rotate-array.md)
+    * [rotate function](array/rotate-function.md)
+    * [pascal's triangle](array/pascals-triangle.md)
+    * [pascal's triangle II](array/pascals-triangle-ii.md)
 

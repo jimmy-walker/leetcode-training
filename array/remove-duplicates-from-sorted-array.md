@@ -53,9 +53,9 @@ class Solution(object):
 
 ```python
 class Solution:
-    def removeDuplicates(self, A):
-        A = list(set(A))
-        return len(A)
+    def removeDuplicates(self, nums):
+        nums = list(set(nums))
+        return len(nums)
 ```
 
 # Knowledge：

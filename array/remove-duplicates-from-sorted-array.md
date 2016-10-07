@@ -60,5 +60,7 @@ class Solution:
 
 # Knowledge：
 
-1. 基本思路就是利用上一次的函数，从而输出最后一行。
+1. list与set间转换，用set(A)即可。注意定义时也是用set(list A)的形式来定义集合的。
+
+2. 
 

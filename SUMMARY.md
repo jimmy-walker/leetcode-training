@@ -8,4 +8,5 @@
     * [rotate function](array/rotate-function.md)
     * [pascal's triangle](array/pascals-triangle.md)
     * [pascal's triangle II](array/pascals-triangle-ii.md)
+    * [remove duplicates from sorted array](array/remove-duplicates-from-sorted-array.md)
 

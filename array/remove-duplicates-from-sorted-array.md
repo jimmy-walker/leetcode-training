@@ -25,7 +25,7 @@ class Solution(object):
         if not nums: #以防止空list所造成的error
             return 0
         
-        last, i = 0, 1
+        last, i = 0, 1 #关键是明确两个指针的作用，一个是往前不断取值，一个是记录符合条件的值得个数。 
         while i < len(nums):
             if nums[last] != nums[i]:
                 last += 1

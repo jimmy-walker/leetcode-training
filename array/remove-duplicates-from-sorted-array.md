@@ -49,7 +49,7 @@ class Solution(object):
 
 ```
 
-## solution2：this method is not accepted, cause it used extra space, which is not allowed.
+## solution2：this method which I wanna use is not accepted, cause it used extra space, which is not allowed.
 
 ```python
 class Solution:

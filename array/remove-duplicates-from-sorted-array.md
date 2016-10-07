@@ -49,40 +49,13 @@ class Solution(object):
 
 ```
 
-## solution2：
+## solution2：this method is not accepted, cause it used extra space, which is not allowed.
 
 ```python
-
-class Solution(object):
-
-    def getRow(self, rowIndex):
-
-        """
-
-        :type rowIndex: int
-
-        :rtype: List[int]
-
-        """
-
-        result = []
-
-        for i in xrange(rowIndex+1):
-
-            result.append([])
-
-            for j in xrange(i + 1):
-
-                if j in (0, i):
-
-                    result[i].append(1)
-
-                else:
-
-                    result[i].append(result[i - 1][j - 1] + result[i - 1][j])
-
-        return result[rowIndex]
-
+class Solution:
+    def removeDuplicates(self, A):
+        A = list(set(A))
+        return len(A)
 ```
 
 # Knowledge：

@@ -53,7 +53,11 @@ class Solution:
 3. **双指针问题——相邻移动**。当发现有两者相邻移动比较时，就要用双指针了。常见用法：    
 
    ```python    
-   for i in xrange(n):        
-       for j in xrange(i + 1):    
+   last, i = 0, 1        
+   while i < len(nums):
+       if nums[last] != nums[i]:
+           last += 1
+           nums[last] = nums[i]
+       i += 1 
    ```
 

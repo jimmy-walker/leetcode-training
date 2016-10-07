@@ -16,37 +16,23 @@ Your function should return length = `2`, with the first two elements of nums be
 ## solution1：
 
 ```python
-
 class Solution(object):
-
-    def getRow(self, rowIndex):
-
+    def removeDuplicates(self, nums):
         """
-
-        :type rowIndex: int
-
-        :rtype: List[int]
-
+        :type nums: List[int]
+        :rtype: int
         """
-
-        result = []
-
-        for i in xrange(rowIndex+1):
-
-            result.append([])
-
-            for j in xrange(i + 1):
-
-                if j in (0, i):
-
-                    result[i].append(1)
-
-                else:
-
-                    result[i].append(result[i - 1][j - 1] + result[i - 1][j])
-
-        return result[rowIndex]
-
+        if not nums:
+            return 0
+        
+        last, i = 0, 1
+        while i < len(nums):
+            if nums[last] != nums[i]:
+                last += 1
+                nums[last] = nums[i]
+            i += 1
+            
+        return last + 1    
 ```
 
 ## solution2：this method which I wanna use is not accepted, cause it used extra space, which is not allowed.

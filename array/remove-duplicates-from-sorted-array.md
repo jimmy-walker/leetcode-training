@@ -54,10 +54,10 @@ class Solution:
 
    ```python    
    last, i = 0, 1        
-   while i < len(nums):
+   while i < len(nums): #i负责往前+1取值，所以需要比整体长度小
        if nums[last] != nums[i]:
-           last += 1
-           nums[last] = nums[i]
+           last += 1 #last就负责记录不相等的值得个数，只有发现了不相等的值了（只需和最近一个last比较，若不相等必然与前面所有的值都不等，因为是有序列表）
+           nums[last] = nums[i] #因为如果之前有相等的情况下，那么i += 1就移动了，再次发现新的值，需要将此新值保存下来，覆盖掉之前相等的值得位置。
        i += 1 
    ```
 

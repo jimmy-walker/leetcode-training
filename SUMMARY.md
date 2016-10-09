@@ -10,4 +10,5 @@
     * [pascal's triangle II](array/pascals-triangle-ii.md)
     * [remove duplicates from sorted array](array/remove-duplicates-from-sorted-array.md)
     * [plus one](array/plus-one.md)
+    * [move zeroes](array/move-zeroes.md)
 

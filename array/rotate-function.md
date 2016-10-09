@@ -23,7 +23,7 @@ So the maximum value of F(0), F(1), F(2), F(3) is F(3) = 26.
 
 #Hint
 
-n is guaranteed to be less than 10<SUP>5</SUP>.
+n is guaranteed to be less than $$10^5$$.
 
 #Answer
 

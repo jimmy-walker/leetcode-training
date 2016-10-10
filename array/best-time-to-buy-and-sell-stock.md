@@ -25,7 +25,7 @@ In this case, no transaction is done, i.e. max profit = 0.
 class
 ```
 
-## solution2: this is my answer. but it return the error: Time Limit Exceeded, when input is `[10000,9999,...]`. Cause its runtime is O(n^2). 由(a1 + an)*n/2 = (n-1+1)*(n-1)/2得到。
+## solution2: this is my answer. but it return the error: Time Limit Exceeded, when input is `[10000,9999,...]`. Cause its runtime is O(n^2). 由(a1 + an)*n/2 = (n-1+1)*(n-1)/2得到，其中从n-1次相减计算到最后两个元素1次相减计算。
 
 ```python
 class Solution(object):
@@ -44,5 +44,7 @@ class Solution(object):
 
 #Knowledge：
 
-1. 
+1. 这道题目提醒了我要注意runtime的限制，我本来的方案可以在短的列表上实验成功，但是runtime有O(n^2)，所以还是不用此方法了。
+
+2. 
 

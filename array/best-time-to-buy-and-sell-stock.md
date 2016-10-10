@@ -25,7 +25,7 @@ In this case, no transaction is done, i.e. max profit = 0.
 class
 ```
 
-## solution2: this is my answer. but it return the error: Time Limit Exceeded, when input is `[10000,9999,...]`. 
+## solution2: this is my answer. but it return the error: Time Limit Exceeded, when input is `[10000,9999,...]`. Cause its runtime is O(n^2). 由(a1 + an)*n/2 = (n-1+1)*(n-1)/2得到。
 
 ```python
 class Solution(object):

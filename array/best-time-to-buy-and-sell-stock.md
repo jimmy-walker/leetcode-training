@@ -22,7 +22,17 @@ In this case, no transaction is done, i.e. max profit = 0.
 
 ## solution1：
 ```python
-class
+class Solution(object):
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        max_profit, min_price = 0, float("inf")
+        for price in prices:
+            min_price = min(min_price, price)
+            max_profit = max(max_profit, price - min_price)  
+        return max_profit
 ```
 
 ## solution2: this is my answer. but it return the error: Time Limit Exceeded, when input is `[10000,9999,...]`. Cause its runtime is O(n^2). 由(a1 + an)*n/2 = (n-1+1)*(n-1)/2得到，其中从n-1次相减计算到最后两个元素1次相减计算。

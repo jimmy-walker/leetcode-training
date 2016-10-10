@@ -36,7 +36,7 @@ class Solution(object):
 ```
 
 ## solution2: this is my answer. But it has a problem as followed.
-It return the error: Time Limit Exceeded, when input is `[10000,9999,...]`. Cause its runtime is O(n^2). 由(a1 + an)*n/2 = (n-1+1)*(n-1)/2得到，其中从n-1次相减计算到最后两个元素1次相减计算。
+It return the error: Time Limit Exceeded, when input is `[10000,9999,...]`. Cause its runtime is O(n^2). 由(a1 + an)\*n/2 = (n-1+1)\*(n-1)/2得到，其中从n-1次相减计算到最后两个元素1次相减计算。
 
 ```python
 class Solution(object):

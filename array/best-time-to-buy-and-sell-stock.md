@@ -30,7 +30,7 @@ class Solution(object):
         """
         max_profit, min_price = 0, float("inf")
         for price in prices:
-            min_price = min(min_price, price)
+            min_price = min(min_price, price) #保存之前至今数据中的最小值
             max_profit = max(max_profit, price - min_price)  
         return max_profit
 ```
@@ -61,5 +61,5 @@ class Solution(object):
     ```
     float("inf"), float("-inf")
     ```
-3. 
+3. 答案的思路是只要有一个变量记录之前至今数据的最小值，那么取最大差值即可。
 

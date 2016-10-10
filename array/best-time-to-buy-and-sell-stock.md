@@ -57,5 +57,9 @@ class Solution(object):
 
 1. 这道题目提醒了我要注意runtime的限制，我本来的方案可以在短的列表上实验成功，但是runtime有O(n^2)，所以还是不用此方法了。
 
-2. 
+2. python中使用如下表达式表示正负无穷：
+    ```
+    float("inf"), float("-inf")
+    ```
+3. 
 

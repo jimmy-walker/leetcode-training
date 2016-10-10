@@ -31,7 +31,7 @@ class Solution(object):
         max_profit, min_price = 0, float("inf")
         for price in prices:
             min_price = min(min_price, price) #保存之前至今数据中的最小值
-            max_profit = max(max_profit, price - min_price)  
+            max_profit = max(max_profit, price - min_price) #若数据一直变小，那么max_profit一直是0 
         return max_profit
 ```
 

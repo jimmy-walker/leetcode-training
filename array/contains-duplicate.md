@@ -33,6 +33,7 @@ class Solution:
 
 #Knowledge：
 1. python中列表排序方法，sort方法与sorted方法。
+
     1. **sort排序方法是直接修改原列表list排序方法**，其调用形式为：**a.sort()**。
         ```
         >>> a=[5,4,3,2,1]

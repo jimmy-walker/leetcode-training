@@ -12,4 +12,5 @@
     * [Plus One](array/plus-one.md)
     * [Move Zeroes](array/move-zeroes.md)
     * [Best Time to Buy and Sell Stock](array/best-time-to-buy-and-sell-stock.md)
+    * [Contains Duplicate](array/contains-duplicate.md)
 

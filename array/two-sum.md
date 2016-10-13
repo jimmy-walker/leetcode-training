@@ -41,8 +41,14 @@ class Solution(object):
 
 
 #Knowledge：
-1. enumerate() 函数用于遍历序列中的元素的下标以及元素，这一类问题叫**下标元素类**，_往往需要配合查找某个满足条件的值 if x in dict:_。
+1. enumerate() 函数用于遍历序列中的元素的下标以及元素，这一类问题叫**下标元素类**。            
 
    其常用形式for i, num in enumerate(nums):
 
-2. 注意判断字典中值的方法，直接if a in dict:即可
+2. 下标元素类的问题常常需要用到，单循环加上字典辅助：
+    ```
+    if num not in lookup:
+        lookup[num] = i
+    ```
+
+3. 注意判断字典中值的方法，直接if a in dict:即可

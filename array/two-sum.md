@@ -41,7 +41,7 @@ class Solution(object):
 
 
 #Knowledge：
-1. enumerate() 函数用于遍历序列中的元素的下标以及元素。
+1. enumerate() 函数用于遍历序列中的元素的下标以及元素，这一类问题叫**下标元素类**，_往往需要配合查找某个满足条件的值 if x in dict:_
 
    其常用形式for i, num in enumerate(nums):
 

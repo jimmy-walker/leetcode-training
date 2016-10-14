@@ -67,6 +67,8 @@ class Solution:
 
 2. 我本来使用等号直接复制，但是这里面就牵涉到python的赋值语句原理，
 
+3. **对于一个列表或者类似的序列或者其他复杂的对象，使用切片操作来取得拷贝，避免使用等号直接赋值**。
+
 
 #Reference:
 - [python基础（5）：深入理解 python 中的赋值、引用、拷贝、作用域](https://my.oschina.net/leejun2005/blog/145911)

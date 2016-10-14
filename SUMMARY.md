@@ -14,4 +14,5 @@
     * [Best Time to Buy and Sell Stock](array/best-time-to-buy-and-sell-stock.md)
     * [Contains Duplicate](array/contains-duplicate.md)
     * [Contains Duplicate II](array/contains-duplicate-ii.md)
+    * [Merge Sorted Array](array/merge-sorted-array.md)
 

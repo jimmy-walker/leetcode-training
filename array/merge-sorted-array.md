@@ -65,10 +65,11 @@ class Solution:
 #Knowledge：
 1. 这道第题目一开始我以为非常简单，因为我倾向于使用python的优点sort函数，而不是向解法三一样，完全靠算法。因为我认为正是这些既有的函数才使得python变得简单易用，我的目的也是使用python来解决各种问题。因此这里并没有对解法三进行研究。
 
-2. 我本来使用等号直接复制
+2. 我本来使用等号直接复制，但是这里面就牵涉到python的赋值语句原理，
 
 
 #Reference:
-
+- [python基础（5）：深入理解 python 中的赋值、引用、拷贝、作用域](https://my.oschina.net/leejun2005/blog/145911)
+- [Python关于对象的复制](http://www.jianshu.com/p/bc356a698af6)
 
 

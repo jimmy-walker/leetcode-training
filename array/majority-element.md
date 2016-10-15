@@ -30,7 +30,6 @@ class Solution(object):
 2. 字典的遍历方法：
 
     ```python
-
     l = [(x,x) for x in xrange(10000)]
     d = dict(l)
  
@@ -50,7 +49,6 @@ class Solution(object):
     t3=clock()
  
     print t1-t0, t2-t1, t3-t2
-
     ```
     结果为`0.00184039735833 0.00326492977712 0.00214993552657`，可见第一种方法速度最快。第二种方法的记忆方式为key，value在items中。
     

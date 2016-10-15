@@ -38,15 +38,15 @@ class Solution(object):
  
     t0=clock()
     for i in d:
-     t = i + d[i]
+        t = i + d[i]
     t1=clock()
  
     for k,v in d.items():
-     t = k + v
+        t = k + v
     t2=clock()
  
     for k,v in d.iteritems():
-     t = k + v
+        t = k + v
     t3=clock()
  
     print t1-t0, t2-t1, t3-t2

@@ -16,4 +16,6 @@
   * [Contains Duplicate II](array/contains-duplicate-ii.md)
   * [Merge Sorted Array](array/merge-sorted-array.md)
   * [Majority Element](array/majority-element.md)
+  * [Minimum Path Sum](array/minimum-path-sum.md)
+
 

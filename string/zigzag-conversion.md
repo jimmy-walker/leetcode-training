@@ -30,7 +30,7 @@ class Solution(object):
         # go through the string and append letters one by one
         lpos = 0
         for letter in s:
-            strings[lpos] += letter
+            strings[lpos] += letter #注意每行都是字符串，所以用字符串加运算
             if lpos == numRows - 1:
                 lpos -= 1
                 down = False #如果到达最后一行，则停止下降

@@ -54,4 +54,4 @@ class Solution(object):
     ```python
     ''.join(A)
     ```
-4. 注意elif如果也不满足，才会执行else，否则就不会执行else。
+4. 注意elif如果也不满足，才会执行else，否则就不会执行else。这个

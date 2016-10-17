@@ -31,3 +31,12 @@ class Solution(object):
     ```python
     list.pop(obj=list[-1])
     ```
+    示例为：
+    ```python
+    aList = [123, 'xyz', 'zara', 'abc']
+    print "A List : ", aList.pop()
+    print "B List : ", aList.pop(2)
+    #输出为
+    A List :  abc
+    B List :  zara
+    ```

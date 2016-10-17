@@ -23,4 +23,4 @@ class Solution(object):
 ```
 
 #Knowledge：
-1. 
+1. 这道题目是string系列的第一题，拿到后其实是懵掉了。

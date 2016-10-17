@@ -8,6 +8,10 @@
     ```
 
 2. Python中定义一个Unicode字符串和定义一个普通字符串一样简单。
+    
+    ```python
+    u'Hello World !'
+    ```
 
-
+3.
 

@@ -33,7 +33,7 @@ class Solution(object):
             strings[lpos] += letter
             if lpos == numRows - 1:
                 lpos -= 1
-                down = False
+                down = False #如果
             elif lpos == 0:
                 lpos = 1
                 down = True

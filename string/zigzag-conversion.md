@@ -50,5 +50,6 @@ class Solution(object):
 
 3. 列表转字符串的方法：
     ```python
-    "".join(list)
+    A = [1]
+    "".join(A)
     ```

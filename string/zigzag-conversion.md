@@ -52,5 +52,5 @@ class Solution(object):
     ```
 3. 列表转字符串的方法：
     ```python
-    "".join(A)
+    ''.join(A)
     ```

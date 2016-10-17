@@ -26,7 +26,7 @@ class Solution(object):
         if numRows == 1:
             return s
         down = True
-        strings = [""] * numRows
+        strings = ['' for i in range(numRows)]
         # go through the string and append letters one by one
         lpos = 0
         for letter in s:

@@ -7,7 +7,7 @@
     print "My name is %s and weight is %d kg!" % ('Zara', 21)
     ```
 
-2. python中定义一个Unicode字符串和定义一个普通字符串一样简单。
+2. Python中定义一个Unicode字符串和定义一个普通字符串一样简单。
 
 
 

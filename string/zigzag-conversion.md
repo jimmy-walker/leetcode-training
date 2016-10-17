@@ -36,7 +36,7 @@ class Solution(object):
                 down = False #如果到达最后一行，则停止下降，将
             elif lpos == 0:
                 lpos = 1
-                down = True
+                down = True #如果到达第一行，则停止上升
             elif down:
                 lpos += 1
             else:

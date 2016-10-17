@@ -19,4 +19,5 @@
     * [Minimum Path Sum](array/minimum-path-sum.md)
 * [String](string/string.md)
     * [Valid Parentheses](string/valid-parentheses.md)
+    * [ZigZag Conversion](string/zigzag-conversion.md)
 

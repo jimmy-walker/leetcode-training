@@ -36,7 +36,7 @@ class Solution(object):
     aList = [123, 'xyz', 'zara', 'abc']
     print "A List : ", aList.pop()
     print "B List : ", aList.pop(2)
-    ##输出为
+    #输出如下，可以指定弹出哪一个
     A List :  abc
     B List :  zara
     ```

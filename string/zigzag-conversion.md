@@ -41,7 +41,7 @@ class Solution(object):
                 lpos += 1
             else:
                 lpos -= 1
-        return "".join(strings)
+        return ''.join(strings)
 ```
 #Knowledge：
 1. 此题的典型的方法有两个：第一，用一个二维数组来存放，按照ZigZag的方式一列一列填充数组。然后按行访问就是新数组；第二，不使用额外空间，直接找出每一行不同字母在原字符串中的序号。我选择第一个，因为相对来说比较直观。

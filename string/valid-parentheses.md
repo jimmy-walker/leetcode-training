@@ -17,7 +17,7 @@ class Solution(object):
         for parenthese in s:
             if parenthese in lookup:
                 stack.append(parenthese)
-            elif len(stack) == 0 or lookup[stack.pop()] != parenthese:
+            elif len(stack) == 0 or lookup[stack.pop()] != parenthese: #用lookup[stack.pop()]来判断前一个符号对应的结尾符号是否与当前符号一致
                 return False
         return len(stack) == 0        
 ```

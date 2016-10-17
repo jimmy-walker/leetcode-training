@@ -48,4 +48,7 @@ class Solution(object):
 
 2. 产生二维数组来存放字符串的方法为：['' for i in range(numRows)]
 
-3.
+3. 列表转字符串的方法：
+    ```python
+    "".join(list)
+    ```

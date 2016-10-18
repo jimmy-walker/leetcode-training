@@ -1,20 +1,27 @@
-#Question
+# Question
 
-**The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)**
+**The string **`"PAYPALISHIRING"`** is written in a zigzag pattern on a given number of rows like this: \(you may want to display this pattern in a fixed font for better legibility\)**
+
 ```
 P   A   H   N
 A P L S I I G
 Y   I   R
 ```
+
 And then read line by line: `"PAHNAPLSIIGYIR"`
 
 Write the code that will take a string and make this conversion given a number of rows:
+
 ```
 string convert(string text, int nRows);
 ```
+
 `convert("PAYPALISHIRING", 3)` should return `"PAHNAPLSIIGYIR"`.
-#Answer
+
+# Answer
+
 ## solution：
+
 ```python
 class Solution(object):
     def convert(self, s, numRows):
@@ -43,20 +50,29 @@ class Solution(object):
                 lpos -= 1
         return ''.join(strings)
 ```
-#Knowledge：
+
+# Knowledge：
+
 1. 此题的典型的方法有两个：第一，用一个二维数组来存放，按照ZigZag的方式一列一列填充数组。然后按行访问就是新数组；第二，不使用额外空间，直接找出每一行不同字母在原字符串中的序号。我选择第一个，因为相对来说比较直观。
 
 2. 产生二维数组来存放字符串的方法为：
-    ```python
-    ['' for i in range(numRows)]
-    ```
+
+  ```python
+   ['' for i in range(numRows)]
+  ```
+
 3. 列表转字符串的方法：
-    ```python
-    ''.join(A)
-    ```
+  ```python
+   ''.join(A)
+  ```
+
 4. **python判断语句**中elif如果也不满足，才会执行else，否则就不会执行else。这段**python判断语句**好好学习下，为以后做准备。
-    ```python
-    if
-    elif
-    else
-    ```
+  ```python
+   if
+   elif
+   else
+  ```
+
+5. 这一类问题我拿到后无从下手的原因是，没有想好算法空间上怎么处理。
+
+

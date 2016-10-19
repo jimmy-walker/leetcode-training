@@ -45,7 +45,7 @@ class Solution(object):
         elif string[j].lower() not in vowels: #找到上面的i的值后，再利用循环找右端点的值
             j -= 1
         else:
-            string[i], string[j] = string[j], string[i] #双指针问题
+            string[i], string[j] = string[j], string[i] #双指针问题往往是原位操作
             i += 1
             j -= 1
     ```

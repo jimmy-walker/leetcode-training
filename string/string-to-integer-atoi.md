@@ -63,7 +63,7 @@ class Solution(object):
 
 2. python中**去除string中空格**的方法有两种：第一种**去除首末空格，用a.strip()**；第二种**去除所有空格，用a.replace(" ","")**。
 
-3. python中int有一定的范围，超出其表达范围会溢出。为了便于操作，直接调用sys.maxint即可，不用管是32位还是64位。
+3. python中int有一定的范围，超出其表达范围会溢出。为了便于操作，直接调用sys.maxint或sys.maxint * -1（表示负数）即可，不用管是32位还是64位。
 
 4. python中左移运算符<<：
 

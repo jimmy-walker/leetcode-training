@@ -42,5 +42,11 @@ class Solution(object):
     while i < j: #用while作循环，比较条件是相互大小
         if string[i].lower() not in vowels: #先去找左端点i的值，while循环找到后，再找右端点j的值
             i += 1
+        elif string[j].lower() not in vowels: #找到上面的i的值后，再利用循环找右端点的值
+            j -= 1
+        else:
+            string[i], string[j] = string[j], string[i]
+            i += 1
+            j -= 1
     ```
 2. 

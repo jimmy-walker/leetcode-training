@@ -61,4 +61,6 @@ class Solution(object):
             break
     ```
 
-2. python中去除string中空格的方法
+2. python中**去除string中空格**的方法有两种：第一种**去除首末空格，用a.strip()**；第二种**去除所有空格，用a.replace(" ","")**。
+
+3. 

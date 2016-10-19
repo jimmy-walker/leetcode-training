@@ -20,4 +20,5 @@
 * [String](string/string.md)
     * [Valid Parentheses](string/valid-parentheses.md)
     * [ZigZag Conversion](string/zigzag-conversion.md)
+    * [String to Integer \(atoi\)](string/string-to-integer-atoi.md)
 

@@ -53,7 +53,7 @@ class Solution(object):
 ```
 
 #Knowledge：
-1. 这道题目预想到了思考部分的空间（原位操作）及时间（单指针），但是在编程环节，没想出怎么叠加数字以及遇到任何怪字符就跳开的方法，方法为在for循环中加入break，一旦遇到不符合条件的就结束循环：
+1. 这道题目预想到了思考部分的空间（原位操作）及时间（单指针），但是在编程环节，没想出怎么叠加数字以及遇到任何怪字符就跳开的方法，方法为**在for循环中加入break，一旦遇到不符合条件的就结束循环**：
 
     ```python
     for i in range(i, length):
@@ -61,4 +61,4 @@ class Solution(object):
             break
     ```
 
-2. python中去除string
+2. python中去除string中空格的方法

@@ -4,7 +4,7 @@
 Input is guaranteed to be within the range from 1 to 3999. 
 
 #Answer
-##solution：
+##solution：this part of the calculation within this code is done by myself.
 ```python
 class Solution(object):
     def romanToInt(self, s):

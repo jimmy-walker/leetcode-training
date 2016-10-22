@@ -23,4 +23,5 @@
     * [String to Integer \(atoi\)](string/string-to-integer-atoi.md)
     * [Reverse Vowels of a String](string/reverse-vowels-of-a-string.md)
     * [Roman to Integer](string/roman-to-integer.md)
+    * [Longest Common Prefix](string/longest-common-prefix.md)
 

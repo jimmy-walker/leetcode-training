@@ -34,15 +34,3 @@ class Solution(object):
     2. 十进制转二进制：**bin(number)** #Return the binary representation of an integer
 
 
-
-3. 列表推导式很重要，特别是这题目中用的例子，作为**列表推导式的经典例子**学习。
-
- ```python
-
- [cprefix[0:x] for x in xrange(len(cprefix)+1,0,-1)]
-
-
-
- ```
-
-

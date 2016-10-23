@@ -29,8 +29,12 @@ class Solution(object):
     1. 二进制转十进制：**int(x, base=2)** #if base is given, then x must be a string
 
     ```python
-    int('100',2) #结果为2
+    int('100',2) #结果为4
     ```
     2. 十进制转二进制：**bin(number)** #Return the binary representation of an integer
+
+    ```python
+    bin(4) #结果为"ob100"
+    ```
 
 

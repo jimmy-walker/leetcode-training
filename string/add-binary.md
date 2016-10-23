@@ -34,7 +34,7 @@ class Solution(object):
     2. 十进制转二进制：**bin(number)** #Return the binary representation of an integer
 
     ```python
-    bin(4) #结果为"ob100"
+    bin(4) #结果为"0b100"
     ```
 
 

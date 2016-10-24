@@ -1,5 +1,5 @@
 #Question
-Each  letter  in  the  magazine  string  can  only  be  used  once  in  your  ransom  note.
+Each  letter  in  the   string  can  only  be  used  once  in  your  ransom  note.
 
 #Example
 ```

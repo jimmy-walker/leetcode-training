@@ -1,5 +1,5 @@
 #Question
-##Given an arbitray##
+## Given  an  arbitrary   note  string  and  another  string  containing  letters from  all  the  magazines,  write  a  function  that  will  return  true  if  the  note  can  be  constructed  from  the  magazines ;  otherwise,  it  will  return  false.  ##
 
 Each letter in the magazine string can only be used once in your note. 
 
@@ -36,3 +36,5 @@ class Solution(object):
 1. 还是一样使用高级语言的特点，remove删除第一个元素。
 
 2. 这次给我的启示是需要**在思考和编程时以数据结构来思考，这样自然会想到方法**，比如remove删除。
+
+3. 最后意外发现gitbook屏蔽关键词ran$som!!!

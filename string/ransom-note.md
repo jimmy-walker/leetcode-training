@@ -37,4 +37,4 @@ class Solution(object):
 
 2. 这次给我的启示是需要**在思考和编程时以数据结构来思考，这样自然会想到方法**，比如remove删除。
 
-3. 最后意外发现gitbook屏蔽关键词ran$som!!!
+3. 最后意外发现gitbook屏蔽关键词!!!

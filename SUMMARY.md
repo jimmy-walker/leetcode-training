@@ -26,4 +26,5 @@
     * [Longest Common Prefix](string/longest-common-prefix.md)
     * [Add Binary](string/add-binary.md)
     * [Ransom Note](string/ransom-note.md)
+    * [Implement strStr\(\)](string/implement-strstr.md)
 

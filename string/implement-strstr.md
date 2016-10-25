@@ -18,4 +18,4 @@ class Solution(object):
         return -1
 ```
 #Knowledge：
-1. 这道题目调试了一会，后来想到了编程部分就好了。
+1. 这道题目调试了一会，后来想到了编程部分就好了。在编程部分，用具体例子来实现，比如"pi"与"missssispi"从而定下循环值。

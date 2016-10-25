@@ -18,3 +18,4 @@ class Solution(object):
         return -1
 ```
 #Knowledge：
+1. 这道题目调试了一会，后来想到了编程部分就好了。

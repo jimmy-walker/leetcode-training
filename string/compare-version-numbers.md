@@ -65,6 +65,6 @@ class Solution(object):
         #     return -1
 ```
 #Knowledge：
-1. 这道题目一开始没觉得难，因为以为两者只要比较到一个没有位了，就可以了，也想到了用split来转成list处理。但是没想到会有"1.0"这样的问题。于是翻看了答案，就发现原来思想是补齐0到相同长度。**这个比较类型题目的一个思想要学会，缩放到同样比例进行比较**。
+1. 这道题目一开始没觉得难，因为以为两者只要比较到一个没有位了，通过多次比较就可以了，也想到了用split来转成list处理。但是没想到会有"1.0"这样的问题。于是翻看了答案，就发现原来思想是补齐0到相同长度。**这个比较类型题目的一个思想要学会，缩放到同样比例进行比较**。
 
 2. 循环中，没有使用到变量值，那么就是用"\_"。it's conventional in python to use _ for throwaway variables. It just indicates that the loop variable isn't actually used.

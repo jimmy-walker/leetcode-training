@@ -31,4 +31,12 @@ class Solution(object):
 
 2. 这种产生**固定序列类的题，预设初始值s，然后根据修改再返回新s**。
 
-3. **正则表达式**：
+3. **正则表达式**的使用
+
+    1. re.sub有三个必选参数：pattern, repl, string：
+
+    ```
+    re.sub(pattern, repl, string)
+    ```
+
+    2. 

@@ -27,3 +27,6 @@ class Solution(object):
         return s
 ```
 #Knowledge：
+1. 这道题目一开始就没理解到题意，后来才知道，是生成一种特定的序列，输入n，则返回该序列第n个的值。
+
+2. 

@@ -31,7 +31,7 @@ class Solution(object):
 
 2. 这种产生**固定序列类的题，预设初始值s，然后根据修改再返回新s**。
 
-3. **lambda函数**，lambda和普通函数相比，就是省去了函数名称而已，此外在使用Python写脚本时，使用lambda可以省去定义函数的过程，让代码更加精简；
+3. **lambda函数**，lambda和普通函数相比，就是省去了函数名称而已，此外在使用Python写脚本时，使用lambda可以省去定义函数的过程，让代码更加精简。**lambda后是输入项，冒号后是输出值。**
 
     ```python
     g = lambda x : x**2

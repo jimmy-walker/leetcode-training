@@ -40,7 +40,7 @@ class Solution(object):
 
 4. **正则表达式**的使用
 
-    1.** re.sub有三个必选参数：pattern（正则表达式）, repl（replace替换值）, string（原字符串），返回替换后的字符串**，此外还**允许使用函数对匹配项进行替换**，比如lambda，**将m当作找到的匹配项**：
+    1.** re.sub有三个必选参数：pattern（正则表达式）, repl（replace替换值）, string（原字符串），返回替换后的字符串**，此外还**允许使用函数对匹配项进行替换**，比如lambda，**把找到的匹配项当作m输入**：
 
     ```
     re.sub(pattern, repl, string)

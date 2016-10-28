@@ -38,13 +38,13 @@ class Solution(object):
 3. **lambda函数**，lambda和普通函数相比，就是省去了函数名称而已，此外在使用Python写脚本时，使用lambda可以省去定义函数的过程，让代码更加精简。**lambda后是输入项，冒号后是输出值。**
 
   ```python
-   g = lambda x : x**2
-   print g(4)
+  g = lambda x : x**2
+  print g(4)
   ```
 
 4. **正则表达式**的使用
 
-    1.** re.sub有三个必选参数：pattern（正则表达式）, repl（replace替换值）, string（原字符串），返回替换后的字符串**，此外还**允许使用函数对匹配项进行替换**，比如lambda，**把找到的匹配项当作m输入**：```re.sub(pattern, repl, string)```
+    1.** re.sub有三个必选参数：pattern（正则表达式）, repl（replace替换值）, string（原字符串），返回替换后的字符串**，此外还**允许使用函数对匹配项进行替换**，比如lambda，**把找到的匹配项当作m输入**：`re.sub(pattern, repl, string)`
 
     2. **正则表达式匹配到的对象（即利用re.findall等查找找到的对象）利用group处理分组**。它们可以通过其在正则表达式中从左到右出现的数字顺序来定位（从1开始）：match.group\(1\)。第0个组被预留来存放所有匹配对象：match.group\(0\)。
 

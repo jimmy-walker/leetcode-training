@@ -33,7 +33,7 @@ class Solution(object):
 
 3. **正则表达式**的使用
 
-    1. re.sub有三个必选参数：pattern, repl, string：
+    1. re.sub有三个必选参数：pattern（正则表达式）, repl（replace替换值）, string（原字符串）：
 
     ```
     re.sub(pattern, repl, string)

@@ -46,4 +46,4 @@ class Solution(object):
     re.sub(pattern, repl, string)
     ```
 
-    2. 
+    2. 正则表达式匹配到的对象利用group处理分组。

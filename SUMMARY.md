@@ -28,4 +28,5 @@
     * [Ransom Note](string/ransom-note.md)
     * [Implement strStr\(\)](string/implement-strstr.md)
     * [Compare Version Numbers](string/compare-version-numbers.md)
+    * [Count and Say](string/count-and-say.md)
 

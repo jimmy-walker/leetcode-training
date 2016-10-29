@@ -42,7 +42,7 @@ class Solution(object):
   print g(4)
   ```
 
-  lambda更多的是与其他函数进行配合使用，比如此题的re.sub以及
+  **lambda更多的是与其他函数进行配合使用，可以节约该函数的参数**，比如此题的re.sub以及
 
 4. **正则表达式**的使用
 

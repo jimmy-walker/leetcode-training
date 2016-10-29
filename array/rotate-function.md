@@ -77,6 +77,6 @@ class Solution(object):
 
 3. python 中比较大小，直接用函数max()，返回给定参数的最大值，参数可以为序列，其语法为max( x, y, z, .... )
 
-4. xrange返回一个生成器，xrange做循环的性能比range好,尤其是返回很大的时候.除非要返回一个列表,则用range。注意xrange(1,n)表示从1开始取，取不到n。注意xrange(0)，不返回值。如果`for i in xrange(0):`，则函数不运行。
+4. xrange返回一个生成器，xrange做循环的性能比range好,尤其是返回很大的时候.除非要返回一个列表,则用range。注意xrange(1,n)表示从1开始取，取不到n。**注意xrange(0)，不返回值。如果`for i in xrange(0):`，则函数不运行。**
 
 5.  python中递归的加法缩略写法，首先写出原式样：`currentvalue = currentvalue + s - n*A[n-i]`，然后将其中重复部分略去即可：`currentvalue += s - n*A[n-i]`。在头脑中有这样一个缩略的动态过程即可，省略= currentvalue +，从而变成+=。

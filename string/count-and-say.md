@@ -45,16 +45,19 @@ class Solution(object):
   **lambda更多的是与其他函数进行配合使用，可以节约该函数的参数**，比如此题的re.sub以及如下的特殊函数（**这些函数都是对于列表的元素进行操作，即每个元素当作lambda x**）。
 
     ```python    
-    #map(function, sequence)将一个列表映射到另一个列表：对sequence中的item依次执行function(item)，执行结果输出为list
+    #map(function, sequence)将一个列表映射到另一个列表
+    #对sequence中的item依次执行function(item)，执行结果输出为list
     map(lambda x:x+x,range(5)) #lambda 函数，各项+本身
     [0, 2, 4, 6, 8]
 
-    #reduce(function, sequence, startValue)将一个列表归纳为一个输出：对sequence中的item顺序迭代调用function，函数必须要有2个参数。
+    #reduce(function, sequence, startValue)将一个列表归纳为一个输出
+    #对sequence中的item顺序迭代调用function，函数必须要有2个参数。
+    #（先取第一第二个数作为x，y然后进行计算，计算出来的数呢，赋给x，然后取第三个数赋给y，再用x，y做计算，再算完的数，又当做下一轮的x，再从列表中取一个数当做y，再来，就是不断迭代的过程。）要是有第3个参数，则表示初始值，可以继续调用初始值，返回一个值。
     reduce(lambda x,y:x*y,range(1,3),5) #lambda 函数，5是初始值， 1*2*5
     10
-    #（先取第一第二个数作为x，y然后进行计算，计算出来的数呢，赋给x，然后取第三个数赋给y，再用x，y做计算，再算完的数，又当做下一轮的x，再从列表中取一个数当做y，再来，就是不断迭代的过程。）要是有第3个参数，则表示初始值，可以继续调用初始值，返回一个值。
 
-    #filter(function, sequence)按照所定义的函数过滤掉列表中的一些元素：对sequence中的item依次执行function(item)，将执行结果为True（！=0）的item组成一个List/String/Tuple（取决于sequence的类型）返回，False则退出（0），进行过滤
+    #filter(function, sequence)按照所定义的函数过滤掉列表中的一些元素：
+    #对sequence中的item依次执行function(item)，将执行结果为True（！=0）的item组成一个List/String/Tuple（取决于sequence的类型）返回，False则退出（0），进行过滤
     filter(lambda x : x%2,range(10)) #lambda 函数返回奇数，返回列表
     [1, 3, 5, 7, 9]
     ```

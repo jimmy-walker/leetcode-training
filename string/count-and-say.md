@@ -64,3 +64,5 @@ class Solution(object):
 
     2. **正则表达式匹配到的对象（即利用re.findall等查找找到的对象）利用group处理分组**。它们可以通过其在正则表达式中从左到右出现的数字顺序来定位（从1开始）：match.group\(1\)。第0个组被预留来存放所有匹配对象：match.group\(0\)。
 
+#Reference
+- [Python【map、reduce、filter】内置函数使用说明](http://www.cnblogs.com/zhoujinyi/archive/2013/06/07/3121976.html)

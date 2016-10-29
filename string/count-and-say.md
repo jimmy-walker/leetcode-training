@@ -44,6 +44,11 @@ class Solution(object):
 
   **lambda更多的是与其他函数进行配合使用，可以节约该函数的参数**，比如此题的re.sub以及map(function, sequence)将一个列表映射到另一个列表、reduce(function, sequence, startValue)将一个列表归纳为一个输出、filter(function, sequence)按照所定义的函数过滤掉列表中的一些元素（**这些函数都是对于列表的元素进行操作，即每个元素当作lambda x**）。
 
+    ```python
+    f = lambda x,y:x*y+x
+    print f(22,3)
+    
+    ```
 4. **正则表达式**的使用
 
     1. ** re.sub有三个必选参数：pattern（正则表达式）, repl（replace替换值）, string（原字符串），返回替换后的字符串**，此外还**允许使用函数对匹配项进行替换**，比如lambda，**把找到的匹配项当作m输入**：`re.sub(pattern, repl, string)`

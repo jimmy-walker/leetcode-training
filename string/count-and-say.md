@@ -45,12 +45,14 @@ class Solution(object):
   **lambda更多的是与其他函数进行配合使用，可以节约该函数的参数**，比如此题的re.sub以及如下的特殊函数（**这些函数都是对于列表的元素进行操作，即每个元素当作lambda x**）。
 
     ```python
-    f = lambda x,y:x*y+x
-    print f(22,3)
+
     
-    #map(function, sequence)将一个列表映射到另一个列表
-    #reduce(function, sequence, startValue)将一个列表归纳为一个输出
-    #filter(function, sequence)按照所定义的函数过滤掉列表中的一些元素
+    #map(function, sequence)将一个列表映射到另一个列表：对sequence中的item依次执行function(item)，执行结果输出为list
+
+    #reduce(function, sequence, startValue)将一个列表归纳为一个输出：对sequence中的item顺序迭代调用function，函数必须要有2个参数。要是有第3个参数，则表示初始值，可以继续调用初始值，返回一个值
+
+    #filter(function, sequence)按照所定义的函数过滤掉列表中的一些元素：对sequence中的item依次执行function(item)，将执行结果为True（！=0）的item组成一个List/String/Tuple（取决于sequence的类型）返回，False则退出（0），进行过滤
+
     ```
 4. **正则表达式**的使用
 

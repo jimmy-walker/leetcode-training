@@ -42,7 +42,7 @@ class Solution(object):
   print g(4)
   ```
 
-  **lambda更多的是与其他函数进行配合使用，可以节约该函数的参数**，比如此题的re.sub以及map(function, sequence)、reduce(function, sequence, startValue)、filter(function, sequence)。
+  **lambda更多的是与其他函数进行配合使用，可以节约该函数的参数**，比如此题的re.sub以及map(function, sequence)将一个列表映射到另一个列表、reduce(function, sequence, startValue)将一个列表归纳为一个输出、filter(function, sequence)按照所定义的函数过滤掉列表中的一些元素（这些函数都是对于列表的元素进行操作）。
 
 4. **正则表达式**的使用
 

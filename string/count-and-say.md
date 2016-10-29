@@ -61,6 +61,7 @@ class Solution(object):
     filter(lambda x : x%2,range(10)) #lambda 函数返回奇数，返回列表
     [1, 3, 5, 7, 9]
     ```
+
 4. **正则表达式**的使用
 
     1. ** re.sub有三个必选参数：pattern（正则表达式）, repl（replace替换值）, string（原字符串），返回替换后的字符串**，此外还**允许使用函数对匹配项进行替换**，比如lambda，**把找到的匹配项当作m输入**：`re.sub(pattern, repl, string)`

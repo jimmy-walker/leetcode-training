@@ -68,6 +68,23 @@ class Solution(object):
 
   2. **正则表达式匹配到的对象（即利用re.findall等查找找到的对象）利用group处理分组**。通过用小括号来（字符‘(’和‘)’）包围正则表达式的特定部分，我们可以对内容进行分组然后对这些子组做单独处理。它们可以通过其在正则表达式中从左到右出现的数字顺序来定位（从1开始）：match.group\(1\)。第0个组被预留来存放所有匹配对象：match.group\(0\)。**注意整体的字符串匹配到的内容(group(0))与其中()匹配到的内容(group(1))的区别，要明白！**
 
+    ````python
+    line = "Cats are smarter than dogs";
+
+    searchObj = re.search( r'(.*) are (.*?) .*', line, re.M|re.I)
+
+    if searchObj:
+       print "searchObj.group() : ", searchObj.group()
+       print "searchObj.group(1) : ", searchObj.group(1)
+       print "searchObj.group(2) : ", searchObj.group(2)
+    else:
+       print "Nothing found!!"
+    #输出如下：
+    matchObj.group() :  Cats are smarter than dogs
+    matchObj.group(1) :  Cats
+    matchObj.group(2) :  smarter
+    ```
+
   3. **特殊字符**点号"."，用以匹配除换行符\n之外的任何单字符。
 
   4. 正则表达式小括号"()"，用以提取匹配的字符串。**注意不仅是在匹配结束后才可以使用，在匹配过程中也可以使用。表达式后边的部分，可以引用前面 "括号内的子匹配已经匹配到的字符串"。**引用方法是 "\" 加上一个数字。"\1" 引用第1对括号内匹配到的字符串，"\2" 引用第2对括号内匹配到的字符串……以此类推。例子：表达式 "(\w)\1{4,}" 在匹配 "aa bbbb abcdefg ccccc 111121111 999999999" 时，匹配结果是：成功；匹配到的内容是 "ccccc"。再次匹配下一个时，将得到 999999999。**注意：若是利用反向引用的，那么跳开重复的再去匹配，比如例子中的第二个c就不管了，直接到9。**

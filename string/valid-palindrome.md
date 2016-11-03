@@ -41,3 +41,5 @@ class Solution(object):
 ```python
 re.findall(pattern, string[, flags]):#搜索string，以列表形式返回全部能匹配的子串。
 ```
+
+3. 

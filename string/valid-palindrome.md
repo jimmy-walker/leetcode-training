@@ -38,8 +38,9 @@ class Solution(object):
 
 2. 具体在解决过程中，用到了正则表达式re.findall，其语法如下：
 
-```python
-re.findall(pattern, string[, flags]):#搜索string，以列表形式返回全部能匹配的子串。
-```
+    ```python
+    re.findall(pattern, string[, flags]):#搜索string，以列表形式返回全部能匹配的子串。
+    ```
 
-3. 
+3. 主要难点在于正则表达式的书写：
+    

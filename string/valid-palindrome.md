@@ -13,7 +13,7 @@ Have you consider that the string might be empty? This is a good question to ask
 For the purpose of this problem, we define empty string as valid palindrome.
 
 #Answer
-##solution：
+##solution：this is done by myself.
 ```python
 class Solution(object):
     def isPalindrome(self, s):
@@ -34,3 +34,4 @@ class Solution(object):
 ```
 
 #Knowledge：
+1. 这道题

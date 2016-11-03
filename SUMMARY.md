@@ -31,4 +31,5 @@
   * [Compare Version Numbers](string/compare-version-numbers.md)
   * [Count and Say](string/count-and-say.md)
   * [Valid Palindrome](string/valid-palindrome.md)
+  * [Length of Last Word](string/length-of-last-word.md)
 

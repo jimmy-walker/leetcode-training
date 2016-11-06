@@ -50,4 +50,27 @@ class Solution(object):
 ```
 
 #Knowledge：
-1. 这道题一开始我没看明白。一直在思考怎么用python来表达tree。后来看了网上文章后才明白，预先已经定义TreeNode了。而具体的
+1. 这道题一开始我没看明白。一直在思考怎么用python来表达tree。后来看了网上文章后才明白，预先已经定义TreeNode了。因此在本地调试时，就需要先定义这个类才行。
+
+    ```python
+    root = TreeNode(1)
+    root.right = TreeNode(2)
+    root.right.left = TreeNode(3)
+    result = Solution().preorderTraversal(root)
+    ```
+
+2. 以下是一些调试信息，帮助理解上面代码。即每次将非None的节点生成一个list赋给level，从而不断寻找。
+    ```
+    ans
+    [[1]]
+    temp
+    [None, <__main__.TreeNode object at 0x00000000040D3550>]
+    ans
+    [[1], [2]]
+    temp
+    [<__main__.TreeNode object at 0x00000000040D3588>, None]
+    ans
+    [[1], [2], [3]]
+    temp
+    [None, None]
+    ```

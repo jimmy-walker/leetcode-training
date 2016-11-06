@@ -32,4 +32,5 @@
     * [Valid Palindrome](string/valid-palindrome.md)
     * [Length of Last Word](string/length-of-last-word.md)
 * [Tree](tree/tree.md)
+    * [Binary Tree Level Order Traversal](tree/binary-tree-level-order-traversal.md)
 

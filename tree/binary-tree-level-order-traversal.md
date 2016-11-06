@@ -60,7 +60,7 @@ class Solution(object):
     result = Solution().preorderTraversal(root)
     ```
 
-2. 以下是一些调试信息，帮助理解上面代码。**遍历树问题：即每次将非None的节点生成一个list赋给level** = `[leaf for leaf in temp if leaf]`，从而不断寻找。
+2. 以下是一些调试信息，帮助理解上面代码。**遍历树问题：即每次将非None的节点生成一个list赋给level** = `[leaf for leaf in temp if leaf]`，从而不断寻找一直到None。
     ```
     ans
     [[1]]

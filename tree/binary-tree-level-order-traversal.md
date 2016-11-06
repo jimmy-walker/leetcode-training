@@ -54,6 +54,7 @@ class Solution(object):
 
     ```python
     root = TreeNode(1)
+    root.left = TreeNode(1.5)
     root.right = TreeNode(2)
     root.right.left = TreeNode(3)
     result = Solution().preorderTraversal(root)
@@ -64,13 +65,15 @@ class Solution(object):
     ans
     [[1]]
     temp
-    [None, <__main__.TreeNode object at 0x00000000040D3550>]
+    [<__main__.TreeNode object at 0x0000000003ED4DA0>, <__main__.TreeNode object at 0x0000000003ED4A58>]
     ans
-    [[1], [2]]
+    [[1], [1.5, 2]]
     temp
-    [<__main__.TreeNode object at 0x00000000040D3588>, None]
+    [None, None]
+    temp
+    [None, None, <__main__.TreeNode object at 0x0000000003ED4B00>, None]
     ans
-    [[1], [2], [3]]
+    [[1], [1.5, 2], [3]]
     temp
     [None, None]
     ```

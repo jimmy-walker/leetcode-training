@@ -49,5 +49,5 @@ class Solution(object):
         return ans     
 ```
 
-
 #Knowledge：
+1. 这道题一开始我没看明白。一直在思考怎么用python来表达tree。后来看了网上文章后才明白，预先已经定义TreeNode了。而具体的

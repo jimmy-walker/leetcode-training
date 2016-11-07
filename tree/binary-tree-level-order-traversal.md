@@ -56,7 +56,7 @@ class Solution(object):
 
 # Knowledge：
 
-1. 这道题一开始我没看明白。一直在思考怎么用python来表达tree。后来看了网上文章后才明白，预先已经定义TreeNode了。因此在本地调试时，就需要先定义这个类才行。而在使用时，**实际上root代表了一个树节点！通过其left和right才能遍历往下，不断切换新的节点，这是树的特点！！！**
+1. 这道题一开始我没看明白。一直在思考怎么用python来表达tree。后来看了网上文章后才明白，预先已经定义TreeNode了。因此在本地调试时，就需要先定义这个类才行。而在使用时，**访问树的问题：实际上root代表了一个树节点！通过其left和right才能遍历往下，不断切换新的节点，这是树的特点！！！**
   ```python
    root = TreeNode(1)
    root.left = TreeNode(1.5)

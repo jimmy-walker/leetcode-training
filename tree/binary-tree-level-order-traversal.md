@@ -93,8 +93,9 @@ class Solution(object):
     判断是否存在，从而才能给下一步进行val取值
     nextroot = [leaf for leaf in tmp if leaf]
 
-    对于树左结点，
-       
+    对于树左结点，ans.append([node.val for node in nextroot])
+    由此将第一层的树结点表达式也进行修改，从而保证统一性
+    类似的处理遍历更下一层，这就是抽象的过程！
   ```
 
 

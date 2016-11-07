@@ -47,4 +47,6 @@ class Solution(object):
 ```
 
 # Knowledge：
-1. 
+1. 这道题目，我偷了个懒，将上一题的列表进行逆向索引。
+
+2. 

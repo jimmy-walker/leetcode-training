@@ -88,6 +88,7 @@ class Solution(object):
 
   ```
     对于树结点，ans.append(root.val)
+    tmp.extend([])
         
   ```
 

@@ -56,7 +56,7 @@ class Solution(object):
 
 # Knowledge：
 
-1. 这道题一开始我没看明白。一直在思考怎么用python来表达tree。后来看了网上文章后才明白，预先已经定义TreeNode了。因此在本地调试时，就需要先定义这个类才行。而在使用时，**访问树问题：实际上root代表了一个树节点！通过其left和right才能遍历往下，不断切换新的节点，这是树的特点！！！**
+1. 这道题一开始我没看明白。一直在思考怎么用python来表达tree。后来看了网上文章后才明白，预先已经定义TreeNode了。因此在本地调试时，就需要先定义这个类才行。而在使用时，**访问树问题：实际上root代表了一个树结点！通过其left和right才能遍历往下，不断切换新的结点，这是树的特点！！！**
   ```python
    root = TreeNode(1)
    root.left = TreeNode(1.5)
@@ -65,7 +65,7 @@ class Solution(object):
    result = Solution().preorderTraversal(root)
   ```
 
-2. 以下是一些调试信息，帮助理解上面代码。**遍历树问题：遍历列表中节点的值（val）保存，再将非None的子节点生成一个list赋给level** = `[leaf for leaf in temp if leaf]`，**从而不断寻找一直到None，跳出**`while leaf`。
+2. 以下是一些调试信息，帮助理解上面代码。**遍历树问题：遍历列表中结点的值（val）保存，再将非None的子结点生成一个list赋给level** = `[leaf for leaf in temp if leaf]`，**从而不断寻找一直到None，跳出**`while leaf`。
 
   ```
    ans
@@ -87,7 +87,8 @@ class Solution(object):
 3. 具体代码编写中，可以这么思考：
 
   ```
-
+    对于树结点，ans.append(root.val)
+        
   ```
 
 

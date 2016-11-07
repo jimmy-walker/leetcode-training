@@ -88,8 +88,9 @@ class Solution(object):
 
   ```
     对于树结点，ans.append(root.val)
-    tmp.extend([])
-        
+    为了遍历树的子结点
+    tmp.extend([root.left,root.right])
+       
   ```
 
 

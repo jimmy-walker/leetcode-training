@@ -56,7 +56,7 @@ class Solution(object):
 
 # Knowledge：
 
-1. 这道题一开始我没看明白。一直在思考怎么用python来表达tree。后来看了网上文章后才明白，预先已经定义TreeNode了。因此在本地调试时，就需要先定义这个类才行。而在使用时，**访问树问题：实际上root代表了一个树结点！通过其left和right才能遍历往下，不断切换新的结点，而不是像其他结构一直对root进行切片索引，这是树的特点！！！**
+1. 这道题一开始我没看明白。一直在思考怎么用python来表达tree。后来看了网上文章后才明白，预先已经定义TreeNode了。因此在本地调试时，就需要先定义这个类才行。而在使用时，**访问树问题：实际上root代表了一个树结点！取值是用val，通过其left和right才能遍历往下，不断切换新的结点，而不是像其他结构一直对root进行切片索引，这是树的特点！！！**
   ```python
    root = TreeNode(1)
    root.left = TreeNode(1.5)
@@ -88,8 +88,12 @@ class Solution(object):
 
   ```
     对于树结点，ans.append(root.val)
-    为了遍历树的子结点
+    为了遍历树的子结点，根据树的特性，需要对应的结点对象
     tmp.extend([root.left,root.right])
+    判断是否存在，从而才能给下一步进行val取值
+    nextroot = [leaf for leaf in tmp if leaf]
+
+    对于树左结点，
        
   ```
 

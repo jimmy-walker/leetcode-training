@@ -84,4 +84,10 @@ class Solution(object):
    [None, None]
   ```
 
+3. 具体代码编写中，可以这么思考：
+
+    ```
+
+    ```
+
 

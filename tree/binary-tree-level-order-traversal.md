@@ -65,7 +65,7 @@ class Solution(object):
    result = Solution().preorderTraversal(root)
   ```
 
-2. 以下是一些调试信息，帮助理解上面代码。**遍历树问题：遍历列表中结点的值（val）保存，再将非None的子结点生成一个list赋给level** = `[leaf for leaf in temp if leaf]`，**从而不断寻找一直到None，跳出**`while leaf`。记住remember这段遍历树的代码。
+2. 以下是一些调试信息，帮助理解上面代码。**遍历树问题：遍历列表中结点的值（val）保存，再将非None的子结点生成一个list赋给level** = `[leaf for leaf in temp if leaf]`，**从而不断寻找一直到None，跳出**`while leaf`。**记住remember这段遍历树的代码**。
 
   ```
    ans

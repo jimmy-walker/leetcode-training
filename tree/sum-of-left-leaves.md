@@ -13,7 +13,7 @@
 There are two left leaves in the binary tree, with values 9 and 15 respectively. Return 24.
 
 # Answer
-## solution：
+## solution：this is done by myself.
 ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
@@ -47,6 +47,6 @@ class Solution(object):
 ```
 
 # Knowledge：
-1. 这道题目，我偷了个懒，将上一题的列表进行逆向索引。
+1. 这道题目，一开始时候。
 
 2. 

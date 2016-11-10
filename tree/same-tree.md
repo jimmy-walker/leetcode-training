@@ -35,7 +35,7 @@ class Solution(object):
 2. 在思考时间和空间时，关键是注意以下几点，才能抽象出编程中的迭代：**要从头开始将每一个结果每一个步骤都写出来；找到过程中循环的部分，将其进行递归化，其中多个if部分，可以写成并集（and）**。
 
 ```
-先写出主外层结构
+1.先写出主外层结构
 isSamTress(self,p,q)
 if p is None and q is None:
     return True
@@ -44,7 +44,7 @@ if p is not None and q is not None:
         ========判断其他结点==========
 return False
 
-将等号位置代码展开
+2.将等号位置代码展开
         if p.left is None and q.left is None:
             return True
         if p.left is not None and q.left is not None:
@@ -57,5 +57,5 @@ return False
             if p.right.val == q.right.val:
                 ========判断其他结点==========
 
-发现有规律性，所以将相似的五行代码，用递归函数表示。
+3.发现有规律性，所以将相似的五行代码，用递归函数表示。
 ```

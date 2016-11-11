@@ -37,4 +37,5 @@
     * [Sum of Left Leaves](tree/sum-of-left-leaves.md)
     * [Binary Tree Paths](tree/binary-tree-paths.md)
     * [Same Tree](tree/same-tree.md)
+    * [Balanced Binary Tree](tree/balanced-binary-tree.md)
 

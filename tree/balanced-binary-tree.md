@@ -44,11 +44,10 @@ return True #如果root.left，root.right都是None，那么就说明此root结�
 
 ```python
 if root is None:
-    return 0,True #增加一个返回的结点下的深度
+    return 0,True #增加一个返回（该结点下的深度）
 if root.left is not None or root.right is not None:
-
     ========判断此两个结点==========
 
-return True #如果root.left，root.right都是None，那么就说明此root结点下的树是平衡树
+return 1,True#如果存在root，即使root.left，root.right都是None，那么root的深度也是
 
 ```

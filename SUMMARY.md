@@ -38,4 +38,5 @@
     * [Binary Tree Paths](tree/binary-tree-paths.md)
     * [Same Tree](tree/same-tree.md)
     * [Balanced Binary Tree](tree/balanced-binary-tree.md)
+    * [Invert Binary Tree](tree/invert-binary-tree.md)
 

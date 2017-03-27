@@ -47,15 +47,15 @@ class Solution(object):
 
   即从第三行开始的第n行中，共有n个数。首尾两个数为1，而第i个数（ 1 &lt; i &lt; n ）的值，则为第n-1行中第i-1个数与第i个数相加的和，用数学公式表达为：
 
-  `N[i] = N[i-1] + N[i]`
+  `N[i] = N-1[i-1] + N-1[i]`
 
 2. **程序先考虑空间，再考虑时间**。这里可以考虑先用append每次加入一个空列表，然后再在其中append数据，这个过程是空间。而用双指针实现，则是时间。
 
 3. **双指针问题——行列展开**。当发现有行展开，列展开时，就要用双指针了。常见用法：
 
   ```python
-   for i in xrange(n):
-       for j in xrange(i + 1):
+  for i in xrange(n):
+      for j in xrange(i + 1):
   ```
 
 
